@@ -1,0 +1,49 @@
+.blog_recipes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.blog_recipes_img{
+    height: 200px;
+    width: 250px;
+}
+.blog_recipes_img_profil{
+    height: 17px;
+    border-radius: 10px;
+}
+.blog_recipes_block{
+    border: 1px solid rgb(233, 229, 229);
+    border-radius: 5px;
+    position: relative;
+}
+.recipe_tag{
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    background-color: rgb(215, 164, 69) ;
+    color: white;
+    padding: 5px 20px;
+    border-bottom-right-radius:  10px;
+    border-top-right-radius:  10px;
+    margin-left: -5px;
+    cursor: pointer;
+
+}
+.recipe_tag:hover{
+    
+}
+.blog_recipes_titles{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 20px;
+    width: 180px;
+    padding-top: 5px;
+    height: 40px;
+}
+.blog_recipes_profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid rgb(233, 229, 229);
+}

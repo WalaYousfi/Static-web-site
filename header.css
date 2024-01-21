@@ -1,0 +1,169 @@
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+}
+header{
+    /* background-attachment: fixed; */
+    position: fixed;
+    top: 0;
+   display: flex;
+   flex-direction: row;
+   background-color: white;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   height: 73px;
+   border-bottom: 3px solid rgb(215, 164, 69);
+   padding-left: 15px;
+}
+.list{
+   flex: 1;
+   display: flex;
+   justify-content:flex-start;
+   align-items: center;
+   margin-left: 10px;
+   margin-right: 10px;
+  
+}
+
+
+.mini_resto_logo{
+    height: 23px;
+}
+.header_name{
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+
+.name{
+    font-weight: bolder;
+    color: rgb(57, 41, 9);
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    -webkit-text-stroke:1px  rgb(215, 164, 69);
+
+}
+
+.resto_logo{
+    height: 40px;
+    padding-left: 6px;
+}
+li ,a{
+   cursor: pointer;
+   text-decoration: none;
+   color: black;
+   list-style: none;
+   padding-left: 10px;
+   padding-right: 10px;
+   
+}
+a:hover{
+    border-bottom: solid  rgb(215, 164, 69);
+    padding-bottom: 3px;
+    transition: all 0.1s;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 23px;
+}
+.contact{
+   width: 350px;
+   display: flex;
+   justify-content:end;
+   align-items:end;
+   gap: 20px;
+   padding-right: 40px;
+   /* background-color: aqua; */
+
+}
+.header_img{
+   size: 10px;
+   height: 20px;
+
+}
+.basket_logo_container{
+    position: relative;
+}
+.basket_items_count{
+    position: absolute;
+    top: 0;
+    /* bottom: 0; */
+    right: 0;
+    left: 10px;
+    background-color:  rgb(215, 164, 69);
+    color: white;
+    height: 14px;
+    width: 16px;
+    border-radius: 26px;
+    text-align:center;
+    padding-top: 1px;
+    font-family: Roboto,ariel;
+}
+.img_contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.contact #bars{
+    display: none;
+}
+
+
+
+@media (max-width:900px){
+
+    html{
+        font-size: 50%;
+    }
+    header{
+        padding: 0 2px;
+        height: 65px;
+    }
+   .img_contact #hide{
+    display: none;
+   }
+}
+
+@media (max-width:700px){
+    .contact #bars{
+        display:inline-block;
+    }
+
+    header .list{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        border-top: solid rgba(0,0,0,.2);
+        padding: 1px;
+        background-color: white;
+
+
+        display: flex;
+        flex-direction: column;
+
+        /* margin-left: 10px;
+        margin-right: 10px; */
+    }
+    .mini_resto_logo{
+        display: none;
+    }
+
+    header .list li{
+        /* display: block; */
+        padding:10px;
+        background-color: white;
+        align-items: start;
+        justify-self:start;
+    }
+    .home{
+        margin-bottom: 0px;
+    }
+    
+}

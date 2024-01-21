@@ -1,0 +1,98 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-image: url(images/Best-Foods-to-Eat-When-Pregnant-722x406.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 450px;
+    background-position: center 75px;
+    margin:0;
+    padding: 0;
+    /* border-bottom: 3px solid rgb(215, 164, 69); */
+    
+}
+
+
+.intro{
+   margin-top: 80px;
+    padding-left: 200px;
+    width: 100%;
+    height: 250px;
+}
+h1{
+    font-family:'Bubbler One', cursive;
+    width: 500px;
+    color: white;
+    font-weight: bolder;
+    font-size: 60px;
+    -webkit-text-stroke:3px rgb(215, 164, 69);
+}
+.button_input_container{
+    position: relative;
+    width: 300px; ;
+}
+.input_location{
+    height: 50px;
+    width: 400px;
+    border: 2px solid rgb(215, 164, 69);
+    /* border: none; */
+    border-radius: 100px;
+   padding-left: 30px;
+   font-size: 12px;
+ 
+   
+}
+.intro_button{
+    
+    position: absolute;
+    top: 8px;
+    right: -90px;
+    bottom: 0;
+    font-size: 12px;
+
+    /* margin-bottom: 100px; */
+    /* margin-left: 200px; */
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+    border: none;
+    background-color:  rgb(221, 175, 88);
+    color: white;
+    cursor: pointer;
+}
+.section_container{
+    
+    display: grid;
+    grid-template-columns: 240px 240px 240px;
+    justify-content:center;
+    align-items: center;
+    gap: 100px;
+    /* border: 2px solid gray; */
+    margin-top: 120px; 
+
+}
+section {
+
+    width: 240px;
+    height: 130px;
+    border-radius: 100px;
+    font: 300;
+    text-align: center;
+    border: 3px solid rgb(215, 164, 69);
+    background-color: white;
+}
+.steps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+.intro_steps{
+    width: 200px;
+    text-align: center;
+    padding-left: 20px;
+}
+.intro_catch_phrase{
+    text-align: start;
+    font-size: 22px;
+    color: black;
+}

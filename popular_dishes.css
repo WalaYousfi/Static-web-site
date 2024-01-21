@@ -1,0 +1,44 @@
+.pop_dishes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.pop_dishes_names{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(231, 233, 235);
+    padding: 8px 25px;
+    border-radius: 20px;
+    transition: all 0.9s;
+    cursor: pointer;
+}
+.pop_dishes_names:hover{
+    color:  rgb(221, 175, 88);
+    border: 1px solid  rgb(221, 175, 88);
+    background-color: white;
+}
+.pop_dishes_names:active{
+    color:  rgb(221, 175, 88);
+    border: 2px solid  rgb(221, 175, 88);
+    background-color: white;
+}
+.various_dishes{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    
+}
+.various_dishes_img{
+    height: 300px;
+    width:300px;
+    border-radius: 5px;
+}
+.various_dishes_p{
+    width: 150px;
+    text-align: center;
+    padding-left: 70px;
+}
